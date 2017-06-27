@@ -308,7 +308,7 @@ ts-message a.timestamp{
 }
 
 #msgs_div .unread_divider.no_unreads .divider_label{
- background: #000 !important;
+ background: red !important;
  color: #aaa !important;
 }
 
