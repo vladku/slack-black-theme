@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #0080C0;
+   --primary: #6A0000;
    --text: #ccc;
    --background: #222;
    --background-elevated: #333;
@@ -85,7 +85,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 }
 
 #msg_input, #primary_file_button {
-  background: transparent !important;
+  background: #222 !important;
   color: var(--text) !important;
   border-color: var(--border-dim) !important;
 }
