@@ -684,7 +684,9 @@ select {
 /* global jumper */
 ts-jumper, ts-jumper.active {
   background-color: rgba(32,32,32,0.6);
+  color: #FFF;
 }
 ts-jumper ts-jumper-container {
   box-shadow: 0 5px 20px rgba(0,0,0,1);
+  color: #FFF;
 }
