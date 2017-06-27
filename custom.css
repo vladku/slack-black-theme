@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #6A0000;
+   --primary: #B20000;
    --text: #ccc;
    --background: #222;
    --background-elevated: #333;
@@ -27,7 +27,7 @@ limitations under the License.
    --background-bright: #222;
 
    --border-dim: #666;
-   --border-bright: var(--primary);
+   --border-bright: #ccc;
 
    --text-bright: #FFF;
    --text-special: var(--primary);
@@ -127,6 +127,7 @@ ts-message {
    padding-right: 20px !important;
    border-left: 1px solid transparent !important; /* reserve space for hover */
    border-right: 1px solid transparent !important;
+   color: var(--text) !important;
 }
 
 ts-message:hover {
