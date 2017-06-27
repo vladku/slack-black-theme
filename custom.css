@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #777;
+   --primary: #0080C0;
    --text: #ccc;
    --background: #222;
    --background-elevated: #333;
@@ -104,6 +104,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 
 .mention_day_container_div .day_divider:before {
    background-color: transparent !important;
+   color: var(--text) !important;
 }
 
 .day_container .day_msgs {
