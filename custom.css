@@ -40,16 +40,20 @@ h1, h2, h3, h4 {
   color: var(--text);
 }
 
-.monkey_scroll_hider {
+.monkey_scroll_hider .reply_input_container{
     background-color: var(--background) !important;
     color: var(--text) !important;
 }
 
-.heading_text, .ql-editor ql-blank{
+.heading_text .ql-editor, .ql-blank{
     color: var(--text) !important;
 }
 
-.thread_participants{
+form:: textbox{
+    color: var(--text) !important;
+}
+
+.thread_participants .message_pane_scroller .monkey_scroller{
     color: var(--text) !important;
 }
 
