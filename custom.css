@@ -19,7 +19,7 @@ limitations under the License.
    --primary: #FFF;
    --text: #ccc;
    --background: #222;
-   --background-elevated: #333;
+   --background-elevated: #008900;
 
    /* These should be less important: */
    --background-hover: rgba(255, 255, 255, 0.1);
@@ -38,6 +38,11 @@ limitations under the License.
 
 h1, h2, h3, h4 {
   color: var(--text);
+}
+
+.col_messages {
+    background-color: var(--background) !important;
+    color: var(--text) !important;
 }
 
 /* left scrollbar */
@@ -76,7 +81,7 @@ ts-jumper input[type="text"],
 
 ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name {
-  color: #00E500 !important;
+  color: #008900 !important;
 }
 
 .light_theme ts-message .message_content a.message_sender, #msg_input::-webkit-input-placeholder,
