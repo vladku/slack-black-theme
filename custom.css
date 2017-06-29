@@ -45,7 +45,7 @@ h1, h2, h3, h4 {
     color: var(--text) !important;
 }
 
-.heading_text{
+.heading_text, .ql-editor ql-blank{
     color: var(--text) !important;
 }
 
