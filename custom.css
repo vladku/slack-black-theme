@@ -19,7 +19,7 @@ limitations under the License.
    --primary: #008900;
    --text: #ccc;
    --background: #222;
-   --background-elevated: #232;
+   --background-elevated: #333;
 
    /* These should be less important: */
    --background-hover: rgba(255, 255, 255, 0.1);
@@ -42,6 +42,14 @@ h1, h2, h3, h4 {
 
 .monkey_scroll_hider {
     background-color: var(--background) !important;
+    color: var(--text) !important;
+}
+
+.heading_text{
+    color: var(--text) !important;
+}
+
+.thread_participants{
     color: var(--text) !important;
 }
 
