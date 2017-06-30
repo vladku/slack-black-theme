@@ -40,6 +40,10 @@ h1, h2, h3, h4 {
   color: var(--text);
 }
 
+.users_messages{
+    left: 30px;
+}
+
 .monkey_scroll_hider, .monkey_scroll_bar, .message_pane_scroller, .reply_input_container, .message_input, .ql-container{
     background-color: var(--background) !important;
     color: var(--text) !important;
