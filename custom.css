@@ -16,9 +16,9 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #11c6fb;
+   --primary: #0FB2E1;
    --text: #ccc;
-   --background: #222;
+   --background: #232;
    --background-elevated: #333;
 
    /* These should be less important: */
@@ -67,9 +67,9 @@ h1, h2, h3, h4 {
 }
 
 .light_theme ts-message .message_content .message_sender {
-    font-weight:900;
-    line-height:22px;
-    font-size: 24px;
+    font-weight:100;
+    line-height:18px;
+    font-size: medium;
     color: var(--primary) !important;
 }
 
@@ -117,12 +117,12 @@ ts-jumper input[type="text"],
 
 ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name {
-  color: var(--primary) !important;
+  color: var(--primary);
 }
 
 .light_theme ts-message .message_content, #msg_input::-webkit-input-placeholder,
 ts-jumper input[type="text"]::-webkit-input-placeholder {
-  color: var(--text) !important;
+  color: var(--text);
 }
 
 #msg_input, #primary_file_button {
