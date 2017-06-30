@@ -66,9 +66,12 @@ h1, h2, h3, h4 {
     color: var(--text-bright) !important;
 }
 
-.message_sender, .message_content_header
-{
+.message_sender, .message_content_header{
     font-size: 20px;
+    color: var(--primary) !important;
+}
+
+.color_ea2977{
     color: var(--primary) !important;
 }
 
