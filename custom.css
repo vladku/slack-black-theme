@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #008900;
+   --primary: #8e2a6f;
    --text: #ccc;
    --background: #222;
    --background-elevated: #333;
@@ -27,7 +27,7 @@ limitations under the License.
    --background-bright: #222;
 
    --border-dim: #666;
-   --border-bright: #008900;
+   --border-bright: #8e2a6f;
 
    --text-bright: #FFF;
    --text-special: var(--primary);
@@ -45,8 +45,18 @@ h1, h2, h3, h4 {
     color: var(--text) !important;
 }
 
+.threads_section, .threads_caught_up_divider, .thread_body_container, .divider_label, .divider_line{
+    background-color: var(--background) !important;
+    color: var(--text) !important;
+}
+
 .heading_text, .ql-editor, .ql-blank, .ql-placeholder{
     color: var(--text) !important;
+}
+
+.message_sender
+{
+    color: #4c99c6 !important;
 }
 
 form:: textbox{
@@ -96,7 +106,7 @@ ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .
   color: #008900 !important;
 }
 
-.light_theme ts-message .message_content a.message_sender, #msg_input::-webkit-input-placeholder,
+.light_theme ts-message .message_content, #msg_input::-webkit-input-placeholder,
 ts-jumper input[type="text"]::-webkit-input-placeholder {
   color: var(--text) !important;
 }
