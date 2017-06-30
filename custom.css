@@ -16,8 +16,8 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #b81a87;
-   --text: #ddd;
+   --primary: #11c6fb;
+   --text: #ccc;
    --background: #222;
    --background-elevated: #333;
 
@@ -65,7 +65,7 @@ h1, h2, h3, h4 {
 .message_sender
 {
     font-size: 20px;
-    color: #FFF !important;
+    color: #11c6fb;
 }
 
 form:: textbox{
@@ -112,7 +112,7 @@ ts-jumper input[type="text"],
 
 ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name {
-  color: #b81a87 !important;
+  color: #11c6fb !important;
 }
 
 .light_theme ts-message .message_content, #msg_input::-webkit-input-placeholder,
