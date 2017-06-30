@@ -66,9 +66,10 @@ h1, h2, h3, h4 {
     color: var(--text-bright) !important;
 }
 
-.message_sender
+.message_sender, .message_content_header
 {
     font-size: 20px;
+    color: var(--primary) !important;
 }
 
 form:: textbox{
@@ -115,7 +116,7 @@ ts-jumper input[type="text"],
 
 ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name {
-  color: #11c6fb !important;
+  color: var(--primary) !important;
 }
 
 .light_theme ts-message .message_content, #msg_input::-webkit-input-placeholder,
