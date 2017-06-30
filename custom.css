@@ -27,7 +27,7 @@ limitations under the License.
    --background-bright: #222;
 
    --border-dim: #666;
-   --border-bright: #b81a87;
+   --border-bright: #b4b4b4;
 
    --text-bright: #FFF;
    --text-special: var(--primary);
@@ -45,7 +45,7 @@ h1, h2, h3, h4 {
     color: var(--text) !important;
 }
 
-.threads_section, .threads_caught_up_divider, .thread_body_container, .divider_label, .divider_line, .message_container_item{
+.threads_section, .threads_caught_up_divider, .thread_body_container, .divider_label, .divider_line, .message_container_item, .thread_messages{
     background-color: var(--background) !important;
     color: var(--text) !important;
 }
@@ -56,9 +56,8 @@ h1, h2, h3, h4 {
 
 .message_sender
 {
-    font-size: 20px;
-    font-style: italic;
-    color: 40b9ff !important;
+    font-size: 18px;
+    color: #40b9ff !important;
 }
 
 form:: textbox{
@@ -221,6 +220,7 @@ ts-message .action_hover_container .btn_msg_action,
 .btn, .btn_outline{
   color: var(--text) !important;
   border-color: var(--border-dim) !important;
+  padding-top: 10px;
 }
 
 .btn:hover:after {
