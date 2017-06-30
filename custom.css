@@ -54,10 +54,15 @@ h1, h2, h3, h4 {
     color: var(--text) !important;
 }
 
+.screenhero_attachment, .relative, .help{
+    background-color: var(--background) !important;
+    color: var(--text) !important;
+}
+
 .message_sender
 {
-    font-size: 18px;
-    color: #40b9ff !important;
+    font-size: 20px;
+    color: #00ecff !important;
 }
 
 form:: textbox{
