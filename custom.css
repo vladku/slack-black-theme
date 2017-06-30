@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #8e2a6f;
+   --primary: #b81a87;
    --text: #ccc;
    --background: #222;
    --background-elevated: #333;
@@ -27,7 +27,7 @@ limitations under the License.
    --background-bright: #222;
 
    --border-dim: #666;
-   --border-bright: #8e2a6f;
+   --border-bright: #b81a87;
 
    --text-bright: #FFF;
    --text-special: var(--primary);
@@ -45,7 +45,7 @@ h1, h2, h3, h4 {
     color: var(--text) !important;
 }
 
-.threads_section, .threads_caught_up_divider, .thread_body_container, .divider_label, .divider_line{
+.threads_section, .threads_caught_up_divider, .thread_body_container, .divider_label, .divider_line, .message_container_item{
     background-color: var(--background) !important;
     color: var(--text) !important;
 }
@@ -56,7 +56,9 @@ h1, h2, h3, h4 {
 
 .message_sender
 {
-    color: #4c99c6 !important;
+    font-size: 20px;
+    font-style: italic;
+    color: 40b9ff !important;
 }
 
 form:: textbox{
@@ -103,7 +105,7 @@ ts-jumper input[type="text"],
 
 ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name {
-  color: #008900 !important;
+  color: #b81a87 !important;
 }
 
 .light_theme ts-message .message_content, #msg_input::-webkit-input-placeholder,
