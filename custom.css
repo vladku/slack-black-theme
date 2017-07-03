@@ -79,9 +79,9 @@ h1, h2, h3, h4 {
 }
 
 .supports_css_mask_image .light_theme ts-message .message_content .message_sender{
-    font-weight:100;
+    font-weight:900;
     line-height:18px;
-    font-size: medium;
+    font-size: large;
     color: var(--primary)!important;
 }
 
