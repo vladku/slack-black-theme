@@ -127,8 +127,8 @@ ts-jumper input[type="text"],
   border-bottom: 1px solid var(--background) !important;
 }
 
-ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
-ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name {
+#channel_title, ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
+ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name, #msgs_div{
   color: var(--primary);
 }
 
@@ -137,7 +137,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
   color: var(--text);
 }
 
-#msg_input, #primary_file_button {
+#msg_input, #primary_file_button, .btn_outline {
   background: #222 !important;
   color: var(--text) !important;
   border-color: var(--border-dim) !important;
