@@ -73,14 +73,7 @@ h1, h2, h3, h4 {
     color: var(--text-bright) !important;
 }
 
-.feature_texty .light_theme ts-message .message_content .message_sender {
-    font-weight:100;
-    line-height:18px;
-    font-size: medium;
-    color: var(--primary) !important;
-}
-
-feature_archive_deeplink feature_texty winssb light_theme{
+.light_theme ts-message .message_content .message_sender{
     font-weight:100;
     line-height:18px;
     font-size: medium;
