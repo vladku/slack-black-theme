@@ -64,6 +64,11 @@ h1, h2, h3, h4 {
     color: var(--text) !important;
 }
 
+.channel_page_members, .channel_page_about, .channel_page_pinned_items, .channel_page_shared_files, .channel_page_notif_prefs{
+    background-color: var(--background) !important;
+    color: var(--text) !important;
+}
+
 .file_container .preview_actions .btn{
     background-color: var(--background) !important;
     color: var(--text) !important;
@@ -73,7 +78,7 @@ h1, h2, h3, h4 {
     color: var(--text-bright) !important;
 }
 
-.light_theme ts-message .message_content .message_sender{
+body .light_theme ts-message .message_content .message_sender{
     font-weight:100;
     line-height:18px;
     font-size: medium;
