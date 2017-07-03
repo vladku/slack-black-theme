@@ -79,7 +79,7 @@ h1, h2, h3, h4 {
 }
 
 .supports_css_mask_image .light_theme ts-message .message_content .message_sender, .member_preview_link{
-    font-weight:300;
+    font-weight: bold;
     line-height:18px;
     font-size: medium;
     font-style: italic;
@@ -131,6 +131,7 @@ ts-jumper input[type="text"],
 #channel_title, ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name, #msgs_div{
   color: var(--primary);
+  font-weight: bold;
 }
 
 .light_theme ts-message .message_content, #msg_input::-webkit-input-placeholder,
@@ -343,6 +344,7 @@ a, a:link, a:visited{
 }
 ts-message a .mention{
   color: var(--text-special) !important;
+  font-weight: bold;
 }
 a:hover{
   color: var(--text-special) !important;
@@ -400,6 +402,7 @@ ts-message a.timestamp{
 
 .tab_container .file_list_item .contents .member, .tab_container .file_list_item .contents .service_link, .tab_container .file_list_item .contents .share_info, .tab_container .file_list_item .contents .time {
    color: var(--text-special);
+   font-weight: bold;
 }
 
 .tab_container .file_list_item:focus, .tab_container .file_list_item:hover {
