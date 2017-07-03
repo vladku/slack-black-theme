@@ -78,7 +78,7 @@ h1, h2, h3, h4 {
     color: var(--text-bright) !important;
 }
 
-body .light_theme ts-message .message_content .message_sender{
+.light_theme ts-message .message_content .message_sender{
     font-weight:100;
     line-height:18px;
     font-size: medium;
