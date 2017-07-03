@@ -59,7 +59,7 @@ h1, h2, h3, h4 {
     color: var(--text) !important;
 }
 
-.screenhero_attachment, .relative, .help, .selectable_flex_pane_padder{
+.screenhero_attachment, .relative, .help, .selectable_flex_pane_padder, .flex_content_scroller{
     background-color: var(--background) !important;
     color: var(--text) !important;
 }
@@ -74,7 +74,7 @@ h1, h2, h3, h4 {
     color: var(--primary) !important;
 }
 
-a .message_sender .member {
+a .message_sender .member .member_preview_link  {
     font-weight:100;
     line-height:18px;
     font-size: medium;
