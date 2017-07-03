@@ -78,11 +78,11 @@ h1, h2, h3, h4 {
     color: var(--text-bright) !important;
 }
 
-.light_theme ts-message .message_content .message_sender{
+.supports_css_mask_image .light_theme ts-message .message_content .message_sender{
     font-weight:100;
     line-height:18px;
     font-size: medium;
-    color: red!important;
+    color: var(--primary)!important;
 }
 
 form:: textbox{
