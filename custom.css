@@ -44,7 +44,8 @@ h1, h2, h3, h4 {
     left: 30px;
 }
 
-.monkey_scroll_hider, .monkey_scroll_bar, .message_pane_scroller, .reply_input_container, .message_input, .ql-container{
+.monkey_scroll_hider, .monkey_scroll_bar, .message_pane_scroller, .reply_input_container,
+.message_input, .ql-container, channel_page_scroller{
     background-color: var(--background) !important;
     color: var(--text) !important;
 }
@@ -67,6 +68,13 @@ h1, h2, h3, h4 {
 }
 
 .light_theme ts-message .message_content .message_sender {
+    font-weight:100;
+    line-height:18px;
+    font-size: medium;
+    color: var(--primary) !important;
+}
+
+.member {
     font-weight:100;
     line-height:18px;
     font-size: medium;
