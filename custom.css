@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #0FB2E1;
+   --primary: #096A87;
    --text: #ccc;
    --background: #232323;
    --background-elevated: #333;
@@ -78,8 +78,8 @@ h1, h2, h3, h4 {
     color: var(--text-bright) !important;
 }
 
-.supports_css_mask_image .light_theme ts-message .message_content .message_sender{
-    font-weight:200;
+.supports_css_mask_image .light_theme ts-message .message_content .message_sender, .member_preview_link{
+    font-weight:300;
     line-height:18px;
     font-size: medium;
     font-style: italic;
