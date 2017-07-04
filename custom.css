@@ -170,10 +170,14 @@ textarea, input[type="text"], #file_comment_textarea {
    background-color: var(--background) !important;
    border-color: var(--border-dim) !important;
    color: var(--text) !important;
+   font-family: "Times New Roman";
+   font-weight: lighter;
 }
 textarea:focus, input[type="text"]:focus, #file_comment_textarea {
    border-color: var(--border-bright) !important;
    color: var(--text-bright) !important;
+   font-family: "Times New Roman";
+   font-weight: lighter;
 }
 
 ts-message {
@@ -183,6 +187,8 @@ ts-message {
    border-left: 1px solid transparent !important; /* reserve space for hover */
    border-right: 1px solid transparent !important;
    color: var(--text) !important;
+   font-family: "Times New Roman";
+   font-weight: lighter;
 }
 
 ts-message:hover {
