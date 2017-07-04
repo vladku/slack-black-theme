@@ -16,8 +16,6 @@ limitations under the License.
 
 :root {
     
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Cormorant+Infant:400,400i&subset=cyrillic,cyrillic-ext');
-    
    /* Modify these to change your theme colors: */
    --primary: #0A7FA2;
    --text: #ccc;
@@ -85,12 +83,13 @@ h1, h2, h3, h4 {
     font-weight: bold;
     line-height:18px;
     font-size: medium;
-    font-family: 'Cormorant Infant'!important;
+    font-family: 'Georgia'!important;
+    font-style: italic;
     color: var(--primary)!important;
 }
 
 .message_body{
-    font-family: 'Comfortaa'!important;
+    font-family: 'Courier New'!important;
     font-weight: lighter!important;
 }
 
