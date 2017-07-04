@@ -87,7 +87,6 @@ h1, h2, h3, h4 {
 }
 
 .message_body{
-    color: var(--primary)!important;
     font-family: "Times New Roman"!important;
     font-weight: lighter!important;
 }
