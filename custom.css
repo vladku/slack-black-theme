@@ -13,9 +13,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Cormorant+Infant:400,400i&subset=cyrillic,cyrillic-ext');
 
 :root {
+    
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Cormorant+Infant:400,400i&subset=cyrillic,cyrillic-ext');
+    
    /* Modify these to change your theme colors: */
    --primary: #0A7FA2;
    --text: #ccc;
