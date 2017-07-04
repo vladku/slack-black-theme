@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #0C8EB4;
+   --primary: #0A7FA2;
    --text: #ccc;
    --background: #232323;
    --background-elevated: #333;
@@ -84,6 +84,12 @@ h1, h2, h3, h4 {
     font-size: medium;
     font-style: italic;
     color: var(--primary)!important;
+}
+
+.message_body{
+    color: var(--primary)!important;
+    font-family: "Times New Roman"!important;
+    font-weight: lighter!important;
 }
 
 form:: textbox{
