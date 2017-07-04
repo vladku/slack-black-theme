@@ -13,7 +13,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-@import url('https://fonts.googleapis.com/css?family=Bad+Script|Rajdhani');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Cormorant+Infant:400,400i&subset=cyrillic,cyrillic-ext');
 
 :root {
    /* Modify these to change your theme colors: */
@@ -83,12 +83,12 @@ h1, h2, h3, h4 {
     font-weight: bold;
     line-height:18px;
     font-size: medium;
-    font-family: 'Bad Script'!important;
+    font-family: 'Cormorant Infant'!important;
     color: var(--primary)!important;
 }
 
 .message_body{
-    font-family: 'Rajdhani'!important;
+    font-family: 'Comfortaa'!important;
     font-weight: lighter!important;
 }
 
