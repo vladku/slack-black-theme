@@ -137,7 +137,8 @@ ts-jumper input[type="text"],
 #channel_title, ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name, #msgs_div{
   color: var(--primary);
-  font-weight: bold;
+  font-weight: bold;    
+  font-family: 'Georgia'!important;
 }
 
 .light_theme ts-message .message_content, #msg_input::-webkit-input-placeholder,
