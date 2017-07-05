@@ -104,7 +104,8 @@ h1, h2, h3, h4 {
 
 .message_body{
     font-weight: lighter!important;
-  font-family: var(--font-family)!important;
+    font-family: var(--font-family)!important;
+    margin-left: 20px;
 }
 
 form:: textbox{
