@@ -19,6 +19,7 @@ limitations under the License.
    /* Modify these to change your theme colors: */
    --primary: #0A7FA2;
    --text: #ccc;
+   --font-family: 'Georgia';
    --background: #232323;
    --background-elevated: #333;
 
@@ -55,19 +56,19 @@ h1, h2, h3, h4 {
 .thread_messages, .reply_input_container, message_input ql-container{
     background-color: var(--background) !important;
     color: var(--text) !important;
-    font-family: 'Georgia'!important;
-    border: 1px solid #888;
+    font-family: var(--font-family)!important;
 }
 
 .ts-message{
+    border: 1px solid #888;
     width: inherit;
 }
 
-.basic_share_dialog, .modal-header, .modal-footer {
-    background-color: #333;
+#generic_dialog, .basic_share_dialog, .modal-header, .modal-footer {
+    background-color: #333!important;
 }
-.modal-header .close, .close {
-    color: red;
+.modal-header .close, .close, .ts_icon_times{
+    color: red!important;
 }
 
 .heading_text, .ql-editor, .ql-blank, .ql-placeholder{
@@ -100,24 +101,24 @@ h1, h2, h3, h4 {
     font-weight: bold;
     line-height:18px;
     font-size: medium;
-    font-family: 'Georgia'!important;
+    font-family: var(--font-family)!important;
     font-style: italic;
     color: var(--primary)!important;
 }
 
 .message_body{
     font-weight: lighter!important;
-  font-family: 'Georgia'!important;
+  font-family: var(--font-family)!important;
 }
 
 form:: textbox{
     color: var(--text) !important;
-  font-family: 'Georgia'!important;
+  font-family: var(--font-family)!important;
 }
 
 .thread_participants, .message_pane_scroller, .monkey_scroller{
     color: var(--text) !important;
-  font-family: 'Georgia'!important;
+  font-family: var(--font-family)!important;
 }
 
 /* left scrollbar */
@@ -162,12 +163,12 @@ ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .
 }
 
 .section_title, #channel_name.cursor_default{
-    font-family: 'Georgia'!important;
+    font-family: var(--font-family)!important;
     color: #AAA!important;
 }
 
 .channel, .channel_name, .member_name, #team_name{
-  font-family: 'Georgia'!important;
+  font-family: var(--font-family)!important;
 }
 
 .light_theme ts-message .message_content, #msg_input::-webkit-input-placeholder,
@@ -179,7 +180,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
   background: #222 !important;
   color: var(--text) !important;
   border-color: var(--border-dim) !important;
-  font-family: 'Georgia'!important;
+  font-family: var(--font-family)!important;
 }
 
 .day_container .day_divider .day_divider_label, .day_divider .day_divider_label,
@@ -207,13 +208,13 @@ textarea, input[type="text"], #file_comment_textarea {
    background-color: var(--background) !important;
    border-color: var(--border-dim) !important;
    color: var(--text) !important;
-   font-family: "Times New Roman";
+   font-family: var(--font-family);
    font-weight: lighter;
 }
 textarea:focus, input[type="text"]:focus, #file_comment_textarea {
    border-color: var(--border-bright) !important;
    color: var(--text-bright) !important;
-   font-family: "Times New Roman";
+   font-family: var(--font-family);
    font-weight: lighter;
 }
 
@@ -224,7 +225,7 @@ ts-message {
    border-left: 1px solid transparent !important; /* reserve space for hover */
    border-right: 1px solid transparent !important;
    color: var(--text) !important;
-   font-family: "Times New Roman";
+   font-family: var(--font-family);
    font-weight: lighter;
 }
 
