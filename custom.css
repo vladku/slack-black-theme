@@ -51,10 +51,23 @@ h1, h2, h3, h4 {
     color: var(--text) !important;
 }
 
-.threads_section, .threads_caught_up_divider, .thread_body_container, .divider_label, .divider_line, .message_container_item, .thread_messages{
+.threads_section, .threads_caught_up_divider, .thread_body_container, .divider_label, .divider_line, .message_container_item,
+.thread_messages, .reply_input_container, message_input ql-container{
     background-color: var(--background) !important;
     color: var(--text) !important;
-  font-family: 'Georgia'!important;
+    font-family: 'Georgia'!important;
+    border: 1px solid #888;
+}
+
+.ts-message{
+    width: inherit;
+}
+
+.basic_share_dialog, .modal-header, .modal-footer {
+    background-color: #333;
+}
+.modal-header .close, .close {
+    color: red;
 }
 
 .heading_text, .ql-editor, .ql-blank, .ql-placeholder{
@@ -71,10 +84,12 @@ h1, h2, h3, h4 {
     color: var(--text) !important;
 }
 
-.file_container .preview_actions .btn{
+.file_container .preview_actions .btn, .btn.dialog_go{
     background-color: var(--background) !important;
     color: var(--text) !important;
-  font-family: 'Georgia'!important;
+    font-family: 'Georgia'!important;
+    border-color: #FFF!important;
+    border-style: solid;
 }
 
 .very_small_bottom_margin{
