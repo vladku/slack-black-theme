@@ -135,9 +135,18 @@ ts-jumper input[type="text"],
 }
 
 #channel_title, ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
-ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name, #msgs_div{
+ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name, #msgs_div
+, .channel_name_container, #im_title{
   color: var(--primary);
   font-weight: bold;    
+}
+
+.section_title{
+    font-family: 'Georgia'!important;
+    color: #666;
+}
+
+.channel, .channel_name, .member_name, #team_name{
   font-family: 'Georgia'!important;
 }
 
