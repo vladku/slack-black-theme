@@ -46,25 +46,26 @@ h1, h2, h3, h4 {
     left: 30px;
 }
 
-.monkey_scroll_hider, .monkey_scroll_bar, .message_pane_scroller, .reply_input_container,
+.monkey_scroll_hider, .monkey_scroll_bar, .message_pane_scroller, .flex_content_scroller, .reply_input_container,
 .message_input, .ql-container, channel_page_scroller{
     background-color: var(--background) !important;
     color: var(--text) !important;
 }
 
 .threads_section, .threads_caught_up_divider, .thread_body_container, .divider_label, .divider_line, .message_container_item,
-.thread_messages, .reply_input_container, message_input ql-container{
+.thread_messages, .reply_input_container, message_input ql-container, .lfs_list_container, .toolbar_container,
+.whats_new_content{
     background-color: var(--background) !important;
     color: var(--text) !important;
     font-family: var(--font-family)!important;
 }
 
-.ts-message{
+.light_theme ts-message{
     border: 1px solid #888!important;
     width: inherit!important;
 }
 
-#generic_dialog, .basic_share_dialog, .modal-header, .modal-footer {
+#generic_dialog, .modal-body, .modal-header, .modal-footer {
     background-color: #333!important;
 }
 .modal-header .close, .close, .ts_icon_times{
