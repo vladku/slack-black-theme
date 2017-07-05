@@ -68,7 +68,7 @@ h1, h2, h3, h4 {
     width: inherit!important;
 }
 
-#generic_dialog, .modal-body, .modal-header, .modal-footer {
+#generic_dialog, .modal, .modal-body, .modal-header, .modal-footer {
     background-color: #333!important;
 }
 .modal-header .close, .close, .ts_icon_times{
