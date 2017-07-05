@@ -54,6 +54,7 @@ h1, h2, h3, h4 {
 .threads_section, .threads_caught_up_divider, .thread_body_container, .divider_label, .divider_line, .message_container_item, .thread_messages{
     background-color: var(--background) !important;
     color: var(--text) !important;
+  font-family: 'Georgia'!important;
 }
 
 .heading_text, .ql-editor, .ql-blank, .ql-placeholder{
@@ -73,6 +74,7 @@ h1, h2, h3, h4 {
 .file_container .preview_actions .btn{
     background-color: var(--background) !important;
     color: var(--text) !important;
+  font-family: 'Georgia'!important;
 }
 
 .very_small_bottom_margin{
@@ -90,14 +92,17 @@ h1, h2, h3, h4 {
 
 .message_body{
     font-weight: lighter!important;
+  font-family: 'Georgia'!important;
 }
 
 form:: textbox{
     color: var(--text) !important;
+  font-family: 'Georgia'!important;
 }
 
 .thread_participants, .message_pane_scroller, .monkey_scroller{
     color: var(--text) !important;
+  font-family: 'Georgia'!important;
 }
 
 /* left scrollbar */
@@ -141,9 +146,9 @@ ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .
   font-weight: bold;    
 }
 
-.section_title{
+.section_title, #channel_name.cursor_default{
     font-family: 'Georgia'!important;
-    color: #666;
+    color: #AAA!important;
 }
 
 .channel, .channel_name, .member_name, #team_name{
@@ -159,6 +164,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
   background: #222 !important;
   color: var(--text) !important;
   border-color: var(--border-dim) !important;
+  font-family: 'Georgia'!important;
 }
 
 .day_container .day_divider .day_divider_label, .day_divider .day_divider_label,
