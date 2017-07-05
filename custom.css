@@ -60,8 +60,8 @@ h1, h2, h3, h4 {
 }
 
 .ts-message{
-    border: 1px solid #888;
-    width: inherit;
+    border: 1px solid #888!important;
+    width: inherit!important;
 }
 
 #generic_dialog, .basic_share_dialog, .modal-header, .modal-footer {
@@ -83,14 +83,6 @@ h1, h2, h3, h4 {
 .channel_page_members, .channel_page_about, .channel_page_pinned_items, .channel_page_shared_files, .channel_page_notif_prefs{
     background-color: var(--background) !important;
     color: var(--text) !important;
-}
-
-.file_container .preview_actions .btn, .btn.dialog_go{
-    background-color: var(--background) !important;
-    color: var(--text) !important;
-    font-family: 'Georgia'!important;
-    border-color: #FFF!important;
-    border-style: solid;
 }
 
 .very_small_bottom_margin{
@@ -176,7 +168,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
   color: var(--text);
 }
 
-#msg_input, #primary_file_button, .btn_outline {
+#msg_input, #primary_file_button, .btn_outline, .btn {
   background: #222 !important;
   color: var(--text) !important;
   border-color: var(--border-dim) !important;
