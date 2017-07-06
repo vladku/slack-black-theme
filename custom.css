@@ -85,7 +85,7 @@ h1, h2, h3, h4 {
 }
 
 .screenhero_attachment, .relative, .help, .selectable_flex_pane_padder, .flex_content_scroller, .select .small, 
-.p-emoji_picker__footer, .p-emoji_picker__list{
+.p-emoji_picker__footer, .p-emoji_picker__list, .channel_prefs_body{
     background-color: var(--background) !important;
     color: var(--text) !important;
     font-family: var(--font-family)!important;
@@ -93,11 +93,12 @@ h1, h2, h3, h4 {
 .p-emoji_picker__preview_text{
     color: var(--text) !important;
     font-family: var(--font-family)!important;
+    background-color: #333 !important;
 }
 
 .channel_page_members, .channel_page_about, .channel_page_pinned_items, .channel_page_shared_files, .channel_page_notif_prefs,
 .global_notification_block, #fs_modal_header, .p-emoji_picker__content:hover .p-emoji_picker__skintone_btn_container,
-.p-emoji_picker__group_tab{
+.p-emoji_picker__group_tab, .p-emoji_picker__input_container{
     background-color: var(--background) !important;
     color: var(--text) !important;
     font-family: var(--font-family)!important;
@@ -108,7 +109,7 @@ h1, h2, h3, h4 {
     background-color: #777 !important;
 }
 
-.very_small_bottom_margin, .fs_modal_sidebar #fs_modal_header h3, .fs_modal_sidebar #fs_modal_header h4{
+.very_small_bottom_margin{
     color: var(--text-bright) !important;
     font-family: var(--font-family)!important;
 }
@@ -129,8 +130,13 @@ h1, h2, h3, h4 {
     margin-left: 20px;
 }
 
-textbox, .comment .comment_body, #fs_modal h3, #fs_modal h4, #fs_modal h5, .channel_prefs_body, .comment .special_formatting_quote .content, .comment_body{
+textbox, .comment .comment_body .channel_prefs_body, .comment .special_formatting_quote .content, .comment_body{
     color: var(--text) !important;
+    font-family: var(--font-family)!important;
+}
+
+#fs_modal h3, #fs_modal h4, #fs_modal h5, .fs_modal_sidebar #fs_modal_header h3, .fs_modal_sidebar #fs_modal_header h4{
+    color: var(--primary) !important;
     font-family: var(--font-family)!important;
 }
 
