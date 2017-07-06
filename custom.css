@@ -75,17 +75,18 @@ h1, h2, h3, h4 {
     color: red!important;
 }
 
-.heading_text, .ql-editor, .ql-blank, .ql-placeholder{
+.heading_text, .ql-editor, .ql-blank, .ql-placeholder, .inline_block, .global_prefs_container, .channel_overrides_row
+, .contents{
     color: var(--text) !important;
 }
 
-.screenhero_attachment, .relative, .help, .selectable_flex_pane_padder, .flex_content_scroller{
+.screenhero_attachment, .relative, .help, .selectable_flex_pane_padder, .flex_content_scroller, .small{
     background-color: var(--background) !important;
     color: var(--text) !important;
 }
 
 .channel_page_members, .channel_page_about, .channel_page_pinned_items, .channel_page_shared_files, .channel_page_notif_prefs,
-.global_notification_block, #fs_modal_header, .inline_block{
+.global_notification_block, #fs_modal_header{
     background-color: var(--background) !important;
     color: var(--text) !important;
 }
@@ -94,7 +95,8 @@ h1, h2, h3, h4 {
     color: var(--text-bright) !important;
 }
 
-.supports_css_mask_image .light_theme ts-message .message_content .message_sender, .member_preview_link{
+.supports_css_mask_image .light_theme ts-message .message_content .message_sender, .member_preview_link,
+.message_sender{
     font-weight: bold;
     line-height:18px;
     font-size: medium;
@@ -103,7 +105,7 @@ h1, h2, h3, h4 {
     color: var(--primary)!important;
 }
 
-.message_body{
+.message_body, .comment_body, .file_container, .initial_comment{
     font-weight: lighter!important;
     font-family: var(--font-family)!important;
     margin-left: 20px;
