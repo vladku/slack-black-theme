@@ -19,7 +19,7 @@ limitations under the License.
    /* Modify these to change your theme colors: */
    --primary: #0A7FA2;
    --text: #ccc;
-   --font-family: 'Bookman';
+   --font-family: 'Courier';
    --background: #232323;
    --background-elevated: #333;
 
@@ -39,7 +39,7 @@ limitations under the License.
 }
 
 h1, h2, h3, h4 {
-  color: var(--text);
+  color: var(--text)!important;
   font-family: var(--font-family)!important;
 }
 
@@ -70,7 +70,7 @@ h1, h2, h3, h4 {
     width: inherit!important;
 }
 
-#generic_dialog, .modal, .modal-body, .modal-header, .modal-footer {
+#generic_dialog, .modal, .modal-body, .modal-header, .modal-footer, #fs_modal.prefs_modal .channel_overrides_row:hover {
     background-color: #333!important;
 }
 .modal-header .close, .close, .ts_icon_times{
@@ -84,17 +84,23 @@ h1, h2, h3, h4 {
 }
 
 .screenhero_attachment, .relative, .help, .selectable_flex_pane_padder, .flex_content_scroller, .select .small, 
-.p-emoji_picker__footer{
+.p-emoji_picker__footer, .p-emoji_picker__preview_text{
     background-color: var(--background) !important;
     color: var(--text) !important;
     font-family: var(--font-family)!important;
 }
 
 .channel_page_members, .channel_page_about, .channel_page_pinned_items, .channel_page_shared_files, .channel_page_notif_prefs,
-.global_notification_block, #fs_modal_header{
+.global_notification_block, #fs_modal_header, .p-emoji_picker__content:hover .p-emoji_picker__skintone_btn_container,
+.p-emoji_picker__group_tab{
     background-color: var(--background) !important;
     color: var(--text) !important;
     font-family: var(--font-family)!important;
+}
+
+.p-emoji_picker__group_tab:hover
+{
+    background-color: #777 !important;
 }
 
 .very_small_bottom_margin, .fs_modal_sidebar #fs_modal_header h3, .fs_modal_sidebar #fs_modal_header h4{
@@ -118,7 +124,7 @@ h1, h2, h3, h4 {
     margin-left: 20px;
 }
 
-form:: textbox, .comment .comment_body, #fs_modal h3, #fs_modal h4{
+textbox, .comment .comment_body, #fs_modal h3, #fs_modal h4, #fs_modal h5, .channel_prefs_body, .comment .special_formatting_quote .content, .comment_body{
     color: var(--text) !important;
     font-family: var(--font-family)!important;
 }
