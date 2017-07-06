@@ -84,7 +84,8 @@ h1, h2, h3, h4 {
     color: var(--text) !important;
 }
 
-.channel_page_members, .channel_page_about, .channel_page_pinned_items, .channel_page_shared_files, .channel_page_notif_prefs{
+.channel_page_members, .channel_page_about, .channel_page_pinned_items, .channel_page_shared_files, .channel_page_notif_prefs,
+.global_notification_block, #fs_modal_header, .inline_block{
     background-color: var(--background) !important;
     color: var(--text) !important;
 }
@@ -192,9 +193,13 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
    padding: 0px 10px;
 }
 
-.mention_day_container_div .day_divider:before {
+.mention_day_container_div .day_divider:before, .member_data_table{
    background-color: transparent !important;
    color: var(--text) !important;
+}
+
+.ts_icon_close_filled{
+    color: red !important;
 }
 
 .day_container .day_msgs {
