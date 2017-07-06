@@ -19,7 +19,7 @@ limitations under the License.
    /* Modify these to change your theme colors: */
    --primary: #0A7FA2;
    --text: #ccc;
-   --font-family: 'Georgia';
+   --font-family: 'Garamond';
    --background: #232323;
    --background-elevated: #333;
 
@@ -40,6 +40,7 @@ limitations under the License.
 
 h1, h2, h3, h4 {
   color: var(--text);
+  font-family: var(--font-family)!important;
 }
 
 .users_messages{
@@ -50,6 +51,7 @@ h1, h2, h3, h4 {
 .message_input, .ql-container, channel_page_scroller{
     background-color: var(--background) !important;
     color: var(--text) !important;
+    font-family: var(--font-family)!important;
 }
 
 .threads_section, .threads_caught_up_divider, .thread_body_container, .divider_label, .divider_line, .message_container_item,
@@ -76,27 +78,31 @@ h1, h2, h3, h4 {
 }
 
 .heading_text, .ql-editor, .ql-blank, .ql-placeholder, .inline_block, .global_prefs_container, .channel_overrides_row
-, .contents{
+, .contents, .btn_outline{
     color: var(--text) !important;
+    font-family: var(--font-family)!important;
 }
 
-.screenhero_attachment, .relative, .help, .selectable_flex_pane_padder, .flex_content_scroller, .small{
+.screenhero_attachment, .relative, .help, .selectable_flex_pane_padder, .flex_content_scroller, .select .small{
     background-color: var(--background) !important;
     color: var(--text) !important;
+    font-family: var(--font-family)!important;
 }
 
 .channel_page_members, .channel_page_about, .channel_page_pinned_items, .channel_page_shared_files, .channel_page_notif_prefs,
 .global_notification_block, #fs_modal_header{
     background-color: var(--background) !important;
     color: var(--text) !important;
+    font-family: var(--font-family)!important;
 }
 
 .very_small_bottom_margin{
     color: var(--text-bright) !important;
+    font-family: var(--font-family)!important;
 }
 
 .supports_css_mask_image .light_theme ts-message .message_content .message_sender, .member_preview_link,
-.message_sender{
+.message_sender, .comment .member, .flexpane_file_title .member{
     font-weight: bold;
     line-height:18px;
     font-size: medium;
@@ -105,20 +111,20 @@ h1, h2, h3, h4 {
     color: var(--primary)!important;
 }
 
-.message_body, .comment_body, .file_container, .initial_comment{
+.message_body, .file_container, .initial_comment{
     font-weight: lighter!important;
     font-family: var(--font-family)!important;
     margin-left: 20px;
 }
 
-form:: textbox{
+form:: textbox, .comment_body, #fs_modal h3, #fs_modal h4{
     color: var(--text) !important;
-  font-family: var(--font-family)!important;
+    font-family: var(--font-family)!important;
 }
 
 .thread_participants, .message_pane_scroller, .monkey_scroller{
     color: var(--text) !important;
-  font-family: var(--font-family)!important;
+    font-family: var(--font-family)!important;
 }
 
 /* left scrollbar */
@@ -136,6 +142,7 @@ form:: textbox{
 .TeamSidebarItem-unreadHighlights {
    background-color: var(--border-bright) !important;
    color: var(--text-bright) !important;
+   font-family: var(--font-family)!important;
 }
 
 #msgs_scroller_div::-webkit-scrollbar-track, #client_body::before, .client_container,
@@ -159,7 +166,8 @@ ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name, #msgs_div
 , .channel_name_container, #im_title{
   color: var(--primary);
-  font-weight: bold;    
+  font-weight: bold;        
+  font-family: var(--font-family)!important;
 }
 
 .section_title, #channel_name.cursor_default{
@@ -174,6 +182,7 @@ ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .
 .light_theme ts-message .message_content, #msg_input::-webkit-input-placeholder,
 ts-jumper input[type="text"]::-webkit-input-placeholder {
   color: var(--text);
+  font-family: var(--font-family)!important;
 }
 
 #msg_input, #primary_file_button, .btn_outline, .btn {
@@ -198,6 +207,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 .mention_day_container_div .day_divider:before, .member_data_table{
    background-color: transparent !important;
    color: var(--text) !important;
+   font-family: var(--font-family)!important;
 }
 
 .ts_icon_close_filled{
