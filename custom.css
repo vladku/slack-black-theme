@@ -19,7 +19,7 @@ limitations under the License.
    /* Modify these to change your theme colors: */
    --primary: #0A7FA2;
    --text: #ccc;
-   --font-family: 'Courier';
+   --font-family: 'Palatino';
    --background: #232323;
    --background-elevated: #333;
 
@@ -78,14 +78,19 @@ h1, h2, h3, h4 {
 }
 
 .heading_text, .ql-editor, .ql-blank, .ql-placeholder, .inline_block, .global_prefs_container, .list_items .channel_overrides_row
-, .contents, .btn_outline, .notification_prefs_section .btn_outline, #prefs_a11y_font_size, #prefs_a11y_animations{
+, .contents, .btn_outline, .notification_prefs_section .btn_outline, #prefs_a11y_font_size, #prefs_a11y_animations, 
+.channel_prefs__muting_checkbox_label, #non_muting_prefs {
     color: var(--text) !important;
     font-family: var(--font-family)!important;
 }
 
 .screenhero_attachment, .relative, .help, .selectable_flex_pane_padder, .flex_content_scroller, .select .small, 
-.p-emoji_picker__footer, .p-emoji_picker__preview_text{
+.p-emoji_picker__footer, .p-emoji_picker__list{
     background-color: var(--background) !important;
+    color: var(--text) !important;
+    font-family: var(--font-family)!important;
+}
+.p-emoji_picker__preview_text{
     color: var(--text) !important;
     font-family: var(--font-family)!important;
 }
