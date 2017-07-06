@@ -19,7 +19,7 @@ limitations under the License.
    /* Modify these to change your theme colors: */
    --primary: #0A7FA2;
    --text: #ccc;
-   --font-family: 'Garamond';
+   --font-family: 'Bookman';
    --background: #232323;
    --background-elevated: #333;
 
@@ -77,13 +77,14 @@ h1, h2, h3, h4 {
     color: red!important;
 }
 
-.heading_text, .ql-editor, .ql-blank, .ql-placeholder, .inline_block, .global_prefs_container, .channel_overrides_row
-, .contents, .btn_outline{
+.heading_text, .ql-editor, .ql-blank, .ql-placeholder, .inline_block, .global_prefs_container, .list_items .channel_overrides_row
+, .contents, .btn_outline, .notification_prefs_section .btn_outline, #prefs_a11y_font_size, #prefs_a11y_animations{
     color: var(--text) !important;
     font-family: var(--font-family)!important;
 }
 
-.screenhero_attachment, .relative, .help, .selectable_flex_pane_padder, .flex_content_scroller, .select .small{
+.screenhero_attachment, .relative, .help, .selectable_flex_pane_padder, .flex_content_scroller, .select .small, 
+.p-emoji_picker__footer{
     background-color: var(--background) !important;
     color: var(--text) !important;
     font-family: var(--font-family)!important;
@@ -96,13 +97,13 @@ h1, h2, h3, h4 {
     font-family: var(--font-family)!important;
 }
 
-.very_small_bottom_margin{
+.very_small_bottom_margin, .fs_modal_sidebar #fs_modal_header h3, .fs_modal_sidebar #fs_modal_header h4{
     color: var(--text-bright) !important;
     font-family: var(--font-family)!important;
 }
 
 .supports_css_mask_image .light_theme ts-message .message_content .message_sender, .member_preview_link,
-.message_sender, .comment .member, .flexpane_file_title .member{
+.message_sender, .panel .comment .member, .panel .flexpane_file_title .member{
     font-weight: bold;
     line-height:18px;
     font-size: medium;
@@ -117,7 +118,7 @@ h1, h2, h3, h4 {
     margin-left: 20px;
 }
 
-form:: textbox, .comment_body, #fs_modal h3, #fs_modal h4{
+form:: textbox, .comment .comment_body, #fs_modal h3, #fs_modal h4{
     color: var(--text) !important;
     font-family: var(--font-family)!important;
 }
