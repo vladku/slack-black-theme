@@ -114,7 +114,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-family)!important;
 }
 
-.channel_prefs__muting_checkbox_label:not(.subtle_silver), .channel_prefs_notifications_table, .notification_prefs_icon:before{
+.contents_container .channel_prefs__muting_checkbox_label:not(.subtle_silver), .channel_prefs_notifications_table, .notification_prefs_icon:before{
     color: var(--text) !important;
 }
 
@@ -131,7 +131,7 @@ h1, h2, h3, h4 {
 .message_body, .file_container, .initial_comment{
     font-weight: lighter!important;
     font-family: var(--font-family)!important;
-    margin-left: 20px;
+    margin-left: 20px!important;
 }
 
 textbox, .comment .comment_body .channel_prefs_body, .comment .special_formatting_quote .content, .comment_body{
